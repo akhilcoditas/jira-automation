@@ -396,6 +396,19 @@
           align-items: flex-start;
         }
       }
+
+      /* Style for the credit footer */
+      .app-footer {
+        text-align: center;
+        margin-top: 40px;
+        padding-bottom: 20px;
+      }
+
+      .credit-text {
+        font-size: 0.9rem;
+        color: var(--gray);
+        font-weight: 500;
+      }
     </style>
   </head>
   <body>
@@ -503,6 +516,11 @@
           <table id="previewTable"></table>
         </div>
       </div>
+
+      <!-- Add credit footer -->
+      <footer class="app-footer">
+        <p class="credit-text">Made by Akhil Sachan</p>
+      </footer>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
